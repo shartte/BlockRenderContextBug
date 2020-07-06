@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "brcb",
+  "version": "${version}",
+  "name": "BlockRenderContextBug",
+  "description": "BlockRenderContextBug",
+  "authors": [
+    "shartte"
+  ],
+  "contact": {
+    "homepage": "https://github.com/shartte/BlockRenderContextBug",
+    "sources": "https://github.com/shartte/BlockRenderContextBug",
+    "issues": "https://github.com/shartte/BlockRenderContextBug/issues"
+  },
+  
+  "license": "public domain",
+  
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "brcb.BlockRenderContextBug"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.1",
+    "minecraft": "~1.16",
+    "fabric": "*"
+  }
+}
